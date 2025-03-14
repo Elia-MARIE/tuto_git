@@ -30,3 +30,18 @@ master, mais github attend main par convention)
 Notre repo local est jumelé avec le distant. Vu que je viens de compléter ce fichier readme après
 le commit, je me contredis moi-même et je dois donc refaire  un commit pour être "iso".
 
+- Le fichier readme a été modifié, le dossier img a été rajouté
+```
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   img/msg_commit.png
+```
+Il faut donc actualiser le stage avec ```git add *```<br>
+Ensuite on commit ```git commit -m "complément repo initialisation"```<br>
+Enfin on push ```git push```
+
+### La suite du travail
+
+Nous allons créer des branches.
