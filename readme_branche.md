@@ -12,3 +12,9 @@ Les branches de développement permettent de faire évoluer le repo sans endomma
   main
 ```
 
+3. Pour pousser cette nouvelle branche, le premier push se faut avec :
+```git push -u origin dev```
+
+4. Ensuite, si on modifie, il n'y a qu'un push simple à faire au final :
+ ```git commit -a -m "modif"```
+ => ma bracnhe dev est mise à jour
